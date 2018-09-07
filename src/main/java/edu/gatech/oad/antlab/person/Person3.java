@@ -1,9 +1,10 @@
 
 // Java program to ReverseString using StringBuilder 
+
+package edu.gatech.oad.antlab.person;
 import java.lang.*; 
 import java.io.*; 
 import java.util.*; 
-package edu.gatech.oad.antlab.person;
 /**
  *  A simple class for person 3
  *  returns their name and a
