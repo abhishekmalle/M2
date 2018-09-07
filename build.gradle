@@ -1,18 +1,4 @@
 defaultTasks 'jar'
-<<<<<<< HEAD
-apply plugin: 'java'
-
-dependencies {
-    compile files('./lib/resources.jar')
-}
-
-jar {
-    manifest {
-        attributes 'Main-Class' : 'C:/Users/Abhishek/Documents/College/CS 2340/M2/src/main/java/edu/gatech/oad/antlab/pkg1',
-                   'Class-Path': './lib/resources.jar'
-    }
-}
-=======
 
 apply plugin: 'java'
 
@@ -40,4 +26,4 @@ jar {
                     "Class-Path": '../../lib/resources.jar'
     }
 }
->>>>>>> d6df05e89e6da192aec4c0e163c5a1f1225f5980
+
