@@ -1,9 +1,10 @@
 package edu.gatech.oad.antlab.person;
 
+import java.util.Collections;
 /**
  *  A simple class for person 2
  *  returns their name and a
- *  modified string 
+ *  modified string
  *
  * @author Bob
  * @version 1.1
@@ -31,14 +32,21 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-	  return null;
+      String[] scr = input.split("");
+      List<String> letters = Arrays.asList(scr);
+      Collections.shuffle(letters);
+      StringBuilder sb = new StringBuilder(input.length());
+      for (String c : letters) {
+          sb.append(c);
+      }
+      return sb.toString();
 	}
 	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
 	 *
 	 * @param input the varying string
-	 * @return the string representing the 
+	 * @return the string representing the
 	 *         object
 	 */
 	public String toString(String input) {
