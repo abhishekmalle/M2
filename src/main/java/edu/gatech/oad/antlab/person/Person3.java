@@ -1,20 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> David
-
 // Java program to ReverseString using StringBuilder 
 
 package edu.gatech.oad.antlab.person;
 import java.lang.*; 
 import java.io.*; 
 import java.util.*; 
-<<<<<<< HEAD
-=======
-package edu.gatech.oad.antlab.person;
->>>>>>> 2adb4f0b89b42537a69c3cab648b1c95a140e0a1
-=======
->>>>>>> David
+
 /**
  *  A simple class for person 3
  *  returns their name and a
