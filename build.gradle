@@ -26,3 +26,4 @@ jar {
                     "Class-Path": '../../lib/resources.jar'
     }
 }
+
