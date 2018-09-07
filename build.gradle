@@ -2,27 +2,15 @@ defaultTasks 'jar'
 
 apply plugin: 'java'
 
-compileJava {
-	sourceCompatibility = '1.8'
-}
-
-task getPath {
-	println System.getProperty("java.home")
-}
 
 dependencies {
     // compile group: 'commons-collections', name: 'commons-collections', version: '3.2.2'
     compile files('lib/resources.jar')
-    testCompile group: 'junit', name: 'junit', version: '4.+'
 }
-
-version = '0.1'
 
 jar {
     manifest {
-        attributes 'Implementation-Title' : 'Team43 Milestone 2',
-                    'Implementation-Version' : version,
-                    'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain',
+        attributes  'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain',
                     "Class-Path": '../../lib/resources.jar'
     }
 }
