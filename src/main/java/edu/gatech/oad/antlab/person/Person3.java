@@ -1,3 +1,8 @@
+
+// Java program to ReverseString using StringBuilder 
+import java.lang.*; 
+import java.io.*; 
+import java.util.*; 
 package edu.gatech.oad.antlab.person;
 /**
  *  A simple class for person 3
@@ -43,6 +48,9 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 	  //Person 3 put your implementation here
-	  return null;
+	  StringBuilder input1 = new StringBuilder();
+	  input1.append(input);
+	  input1 = input1.reverse();
+	  return input1.toString();
 	}
 }
