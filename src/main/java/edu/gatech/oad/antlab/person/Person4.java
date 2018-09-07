@@ -33,7 +33,7 @@ public class Person4 {
       //Person 4 put your implementation here
         StringBuilder myName = new StringBuilder(input);
         for (int i = 0; i < input.length(); ++i) {
-            myName.setCharAt(i, input.charAt(i) + 1);
+            myName.setCharAt(i, (char)((int)input.charAt(i) + 1));
         }
 
 
